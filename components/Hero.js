@@ -14,7 +14,7 @@ function Hero() {
                 <span className='text-optional'>God</span>
               </h3>
             </div>
-            <div className='h-full'>
+            <div className='flex flex-col justify-end h-full mt-14'>
               <div className='relative h-96 min-w-[300px]  border-4 border-white'>
                 <Image
                   src='https://static.wixstatic.com/media/543af2_7931931901f24fc989028a0e5a55df01~mv2.jpg/v1/fill/w_369,h_565,al_c,q_80,usm_0.66_1.00_0.01/3kids.webp'

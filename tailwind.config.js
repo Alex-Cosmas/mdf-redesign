@@ -27,6 +27,7 @@ module.exports = {
         red: '#e87b7b',
         blue: '#73b1f0',
       },
+
       fontFamily: {
         main: ['DM Sans', 'san-serif'],
         // body: ['Red Hat Text', 'san-serif'],
@@ -48,6 +49,9 @@ module.exports = {
       }),
       maxWidth: {
         1200: '1200px',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
       },
       screens: {
         wrap: '1236px',
