@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import TopBar from './TopBar'
 
 function Header() {
@@ -12,13 +13,19 @@ function Header() {
     <>
       <TopBar />
       <nav className='container flex flex-wrap items-center py-3 mx-auto '>
-        <Link href='/'>
-          <a className='inline-flex items-center p-2 mr-4 '>
-            <Link href='#'>
-              <h1 className='font-semibold text-white'>MDF Kenya</h1>
-            </Link>
-          </a>
-        </Link>
+        <div className='relative items-center w-24 h-24 p-2 mr-4 even:inline-flex '>
+          <Link href='/'>
+            <a>
+              <Image
+                src='/MDF Kenya Logo-01.svg'
+                alt='HeroBg'
+                layout='fill'
+                objectFit='contain'
+              />
+            </a>
+          </Link>
+        </div>
+
         <button
           className='inline-flex p-3 ml-auto rounded outline-none bg-gray-50 hover:bg-gray-600 lg:hidden hover:text-white'
           onClick={handleClick}
@@ -44,15 +51,21 @@ function Header() {
             active ? '' : 'hidden'
           }   w-full lg:inline-flex lg:flex-grow lg:w-auto items-center`}
         >
-          <div className='flex flex-col items-start w-full font-semibold text-white lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
+          <div className='flex flex-col items-start w-full font-semibold text-white md:space-x-4 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
             <Link href='#'>
               <a className='items-center justify-center w-full px-3 py-2 hover:font-bold lg:inline-flex lg:w-auto hover:border-b-2 hover:text-optional'>
                 About
               </a>
             </Link>
+
             <Link href='#'>
               <a className='items-center justify-center w-full px-3 py-2 hover:font-bold lg:inline-flex lg:w-auto hover:border-b-2 hover:text-optional'>
-                Impact
+                Our Impact
+              </a>
+            </Link>
+            <Link href='#'>
+              <a className='items-center justify-center w-full px-3 py-2 hover:font-bold lg:inline-flex lg:w-auto hover:border-b-2 hover:text-optional'>
+                How Can you Help
               </a>
             </Link>
             <Link href='#'>
@@ -61,12 +74,7 @@ function Header() {
               </a>
             </Link>
             <Link href='#'>
-              <a className='items-center justify-center w-full px-3 py-2 hover:font-bold lg:inline-flex lg:w-auto hover:border-b-2 hover:text-optional'>
-                Your Impact
-              </a>
-            </Link>
-            <Link href='#'>
-              <a className='items-center justify-center w-full px-5 py-2 bg-optional hover:font-bold lg:inline-flex lg:w-auto hover:text-optional'>
+              <a className='items-center justify-center w-full px-5 py-2 bg-optional hover:font-bold lg:inline-flex lg:w-auto hover:text-primary'>
                 Donate
               </a>
             </Link>

@@ -1,7 +1,7 @@
 export default function OurImpact() {
   return (
     <>
-      <section className='grid grid-cols-2 pt-20 pb-10 '>
+      <section className='grid md:pt-20 md:pb-32 md:grid-cols-2 '>
         <div className='p-6 space-y-8 '>
           <h2 className='mdf-h1'>Our Impact</h2>
           <p>
@@ -11,7 +11,7 @@ export default function OurImpact() {
           </p>
         </div>
 
-        <div>
+        <div className='p-6'>
           <div className='grid grid-cols-2 gap-10'>
             <div>
               <h3 className='font-bold text-7xl text-optional'>300+</h3>
