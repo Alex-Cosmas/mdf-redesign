@@ -16,7 +16,7 @@ function NotFound() {
         <h1>Opps not found......</h1>
         <p>That page cannot be found.....</p>
         <p>
-          Redirecting you to the Home Page
+          Redirecting you back to the Home Page
           {/* <Link href='/'>
             <a>HomePage</a>
           </Link> */}

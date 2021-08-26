@@ -5,7 +5,7 @@ export default function CTA() {
         <div className='relative w-full h-screen/3'>
           <div className='absolute top-0 left-0 w-full h-full opacity-75 bg-primary'></div>
           <div className='absolute top-0 left-0 z-30 flex flex-col items-center justify-center w-full h-full text-center md:gap-2'>
-            <div className='px-10 mb-5 text-2xl text-gray-100 md:mb-0'>
+            <div className='px-10 mb-5 text-2xl text-gray-100 md:text-4xl md:mb-0'>
               If you would like to engage with us, we would love to hear from
               you.
             </div>

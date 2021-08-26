@@ -3,9 +3,11 @@ export default function OurImpact() {
     <>
       <section className='grid md:pt-20 md:pb-32 md:grid-cols-2 '>
         <div className='p-6 space-y-8 '>
-          <h2 className='mdf-h1'>Our Impact</h2>
+          <h2 className='mdf-h1'>
+            Our <span className='text-optional'>Impact</span>
+          </h2>
           <p>
-            These young people have a huge impact on us - they shine a light on
+            The young people have a huge impact on us - they shine a light on
             parts of society that are broken for them, and in turn we help them
             regain their hope, even when everything hangs by a thread.
           </p>

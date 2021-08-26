@@ -15,7 +15,9 @@ export default function OurMission() {
           </div>
         </div>
         <div className='p-6 space-y-8 '>
-          <h2 className='mdf-h1'>Our Mission</h2>
+          <h2 className='mdf-h1'>
+            Our <span className='text-optional'>Mission</span>
+          </h2>
           <div>
             <p>We endeavor to help children in need, one at a time.</p>
             <p>
