@@ -1,5 +1,5 @@
-import Footer from '../Footer'
-import Header from '../Header'
+import Footer from '../Shared/Footer'
+import Header from '../Shared/Header'
 
 function Layout({ children }) {
   return (

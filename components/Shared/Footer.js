@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       {/* flex flex-col items-center justify-center px-4 md:px-24 py-10 mx-auto */}
-      <section className='text-white bg-gray-900'>
+      <section className='w-full text-white bg-gray-900'>
         <div className='container flex flex-col px-6 py-10 mx-auto '>
           <div className='grid grid-cols-1 gap-4 md:gap-0 md:divide-x-2 md:grid-cols-3 divide-optional'>
             <div className='w-full space-y-6'>

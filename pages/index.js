@@ -1,11 +1,11 @@
 // import Image from 'next/image'
 import Head from 'next/head'
-import Layout from '~/components/Layout'
-import HeroComponent from '~/components/Hero'
-import About from '~/components/About'
-import OurMission from '~/components/OurMission'
-import OurImpact from '~/components/OurImpact'
-import CTA from '~/components/CTA'
+
+import HeroComponent from '~/components/HomePage/Hero'
+import About from '~/components/HomePage/About'
+import OurMission from '~/components/HomePage/OurMission'
+import OurImpact from '~/components/HomePage/OurImpact'
+import CTA from '~/components/HomePage/CTA'
 
 function Home() {
   return (
@@ -25,17 +25,6 @@ function Home() {
         </div>
       </main>
       <CTA />
-      {/*       
-      
-      
-
-      <main className='container mx-auto'>
-        <About />
-       
-        <OurImpact />
-      </main>
-
-      <CTA /> */}
     </>
   )
 }
