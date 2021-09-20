@@ -73,7 +73,7 @@ function Header() {
                 Gallery
               </a>
             </Link>
-            <Link href='#'>
+            <Link href='/donations'>
               <a className='items-center justify-center w-full px-5 py-2 bg-optional hover:font-bold lg:inline-flex lg:w-auto hover:text-primary'>
                 Donate
               </a>
