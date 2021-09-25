@@ -47,9 +47,8 @@ function Header() {
         </button>
         {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
         <div
-          className={`${
-            active ? '' : 'hidden'
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto items-center`}
+          className={`${active ? '' : 'hidden'
+            }   w-full lg:inline-flex lg:flex-grow lg:w-auto items-center`}
         >
           <div className='flex flex-col items-start w-full font-semibold text-white md:space-x-4 lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
             <Link href='/about'>
@@ -65,7 +64,7 @@ function Header() {
             </Link> */}
             <Link href='/howtohelp'>
               <a className='items-center justify-center w-full px-3 py-2 hover:font-bold lg:inline-flex lg:w-auto hover:border-b-2 hover:text-optional'>
-                How can you help
+                How can you help?
               </a>
             </Link>
             <Link href='/gallery'>
