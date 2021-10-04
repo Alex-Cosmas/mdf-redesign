@@ -20,7 +20,7 @@ export default function AboutSection() {
         <div className='flex flex-col justify-end h-full md:-mt-14'>
           <div className='relative h-96 min-w-[300px]  border-4 border-secondary shadow-md'>
             <Image
-              src='/mdf assets/Happy_JPG.webp'
+              src='https://res.cloudinary.com/alexoc/image/upload/v1632808970/Projects/Miracle%20Dave%20Foundation/543af2_7f465cd7836d4b41b12bfc2a4d432213_mv2_i8srqu.jpg'
               alt='HeroBg'
               layout='fill'
               objectFit='cover'

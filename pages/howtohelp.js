@@ -24,7 +24,7 @@ export default function howtohelp() {
           <div className='flex flex-col justify-end h-full md:-mt-14'>
             <div className='relative h-96 min-w-[300px]  border-4 border-secondary shadow-md'>
               <Image
-                src='/mdf assets/Happy_JPG.webp'
+                src='https://res.cloudinary.com/alexoc/image/upload/v1632808967/Projects/Miracle%20Dave%20Foundation/Child1_edited_kas3hn.webp'
                 alt='HeroBg'
                 layout='fill'
                 objectFit='cover'

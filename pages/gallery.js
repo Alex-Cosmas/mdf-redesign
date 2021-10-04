@@ -22,7 +22,7 @@ export default function Gallery() {
                   </div>
                   <div className="image relative h-96 min-w-[300px] border-4 border-primary">
                     <Image
-                      src='https://static.wixstatic.com/media/543af2_7931931901f24fc989028a0e5a55df01~mv2.jpg/v1/fill/w_369,h_565,al_c,q_80,usm_0.66_1.00_0.01/3kids.webp'
+                      src='https://res.cloudinary.com/alexoc/image/upload/v1632808969/Projects/Miracle%20Dave%20Foundation/543af2_5b1362f3cf8c46eba41ad11957b7fcf1_mv2_vudjv3.jpg'
                       alt='HeroBg'
                       layout='fill'
                       objectFit='cover'
@@ -37,7 +37,7 @@ export default function Gallery() {
                 <div className="grid md:grid-cols-2 PostWrapper">
                   <div className="image relative h-96 min-w-[300px] border-4 border-primary">
                     <Image
-                      src='https://static.wixstatic.com/media/543af2_7931931901f24fc989028a0e5a55df01~mv2.jpg/v1/fill/w_369,h_565,al_c,q_80,usm_0.66_1.00_0.01/3kids.webp'
+                      src='https://res.cloudinary.com/alexoc/image/upload/v1632808969/Projects/Miracle%20Dave%20Foundation/543af2_6b8e73381aae4d97ace1d2b70d973b77_mv2_rjanct.jpg'
                       alt='HeroBg'
                       layout='fill'
                       objectFit='cover'

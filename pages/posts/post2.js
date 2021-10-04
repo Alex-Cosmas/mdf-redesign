@@ -5,15 +5,17 @@ export default function Post2() {
     const data = [
 
         {
-            name: "Rev. David",
-            details: "David is also the founder and overseer of Power of Praise Ministries in Kenya . This Ministry also runs a charity program. Rev. Kiama has been involved in ministry work for over 20 years",
-            img: 'https://res.cloudinary.com/alexoc/image/upload/v1630879501/SFL/assets/Red-Velvet-Cake-8_h3p6mr.jpg'
+
+            img: 'https://res.cloudinary.com/alexoc/image/upload/v1632808967/Projects/Miracle%20Dave%20Foundation/543af2_0940d673f07441c597b32b2e4dc868fc_mv2_d1un9s.jpg'
         },
         {
-            name: "Hannah",
-            details: "Lorem is also the founder and overseer of Power of Praise Ministries in Kenya . This Ministry also runs a charity program. Rev. Kiama has been involved in ministry work for over 20 years",
-            img: 'https://res.cloudinary.com/alexoc/image/upload/v1630879501/SFL/assets/Red-Velvet-Cake-8_h3p6mr.jpg'
-        }
+
+            img: 'https://res.cloudinary.com/alexoc/image/upload/v1632808968/Projects/Miracle%20Dave%20Foundation/Happy_JPG_y3vpab.webp'
+        },
+        {
+
+            img: 'https://res.cloudinary.com/alexoc/image/upload/v1632808921/Projects/Miracle%20Dave%20Foundation/3kids_b3ugjb.webp'
+        },
 
     ];
     return (
@@ -30,7 +32,7 @@ export default function Post2() {
                             </div>
                             <div className="image relative h-96 min-w-[300px] border-4 border-primary">
                                 <Image
-                                    src='https://static.wixstatic.com/media/543af2_7931931901f24fc989028a0e5a55df01~mv2.jpg/v1/fill/w_369,h_565,al_c,q_80,usm_0.66_1.00_0.01/3kids.webp'
+                                    src='https://res.cloudinary.com/alexoc/image/upload/v1632808969/Projects/Miracle%20Dave%20Foundation/543af2_7d802a55b8bf4194ab6e99cc0ad17b4c_mv2_wurzzt.jpg'
                                     alt='HeroBg'
                                     layout='fill'
                                     objectFit='cover'

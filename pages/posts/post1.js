@@ -5,15 +5,19 @@ export default function Post1() {
 
     const data = [
         {
-            name: "Rev. David",
-            details: "David is also the founder and overseer of Power of Praise Ministries in Kenya . This Ministry also runs a charity program. Rev. Kiama has been involved in ministry work for over 20 years",
-            img: 'https://res.cloudinary.com/alexoc/image/upload/v1630879501/SFL/assets/Red-Velvet-Cake-8_h3p6mr.jpg'
+            img: 'https://res.cloudinary.com/alexoc/image/upload/v1632808969/Projects/Miracle%20Dave%20Foundation/543af2_4faa5f58c37c410280c8133320a87d02_mv2_mp9svb.jpg'
         },
         {
-            name: "Hannah",
-            details: "Lorem is also the founder and overseer of Power of Praise Ministries in Kenya . This Ministry also runs a charity program. Rev. Kiama has been involved in ministry work for over 20 years",
-            img: 'https://res.cloudinary.com/alexoc/image/upload/v1630879501/SFL/assets/Red-Velvet-Cake-8_h3p6mr.jpg'
-        }
+            img: 'https://res.cloudinary.com/alexoc/image/upload/v1632808970/Projects/Miracle%20Dave%20Foundation/543af2_77a8bd1273b84689bcf9c985924fa3aa_mv2_jkodut.jpg'
+        },
+        {
+            img: 'https://res.cloudinary.com/alexoc/image/upload/v1632808970/Projects/Miracle%20Dave%20Foundation/543af2_63ec3cf04a624434b3127683c18e71fa_mv2_w7vtkm.jpg'
+        },
+        {
+            img: 'https://res.cloudinary.com/alexoc/image/upload/v1632808969/Projects/Miracle%20Dave%20Foundation/543af2_3e614b39c21b49faa8dd9d9135e24e51_mv2_o4wsmg.jpg'
+        },
+
+
     ];
     return (
         <>
@@ -29,10 +33,11 @@ export default function Post1() {
                             </div>
                             <div className="image relative h-96 min-w-[300px] border-4 border-primary">
                                 <Image
-                                    src='https://static.wixstatic.com/media/543af2_7931931901f24fc989028a0e5a55df01~mv2.jpg/v1/fill/w_369,h_565,al_c,q_80,usm_0.66_1.00_0.01/3kids.webp'
+                                    src='https://res.cloudinary.com/alexoc/image/upload/v1632808969/Projects/Miracle%20Dave%20Foundation/543af2_5b1362f3cf8c46eba41ad11957b7fcf1_mv2_vudjv3.jpg'
                                     alt='HeroBg'
                                     layout='fill'
-                                    objectFit='cover'
+                                    className='object-top '
+
                                 />
                             </div>
                         </div>
