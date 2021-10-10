@@ -55,7 +55,7 @@ export default function TeamDetails() {
   ];
   return (
     <>
-      <div className="grid grid-cols-2 gap-10 ">
+      <div className="grid gap-10 md:grid-cols-2 ">
         {data.map(function (teamdetails, idx) {
           return (
             <div key={idx} className="bg-gray-100">
