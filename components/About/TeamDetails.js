@@ -34,9 +34,9 @@ export default function TeamDetails() {
     },
     {
       name: "GLADYS W. NJERI",
-      title: "PROJECT DIRECTOR",
+      title: "REGIONAL COORDINATOR",
       details:
-        "Gladys is a social worker - she has been involved in doing charity work, especially in the Nairobi slums.",
+        "Gladys has a great deal of experience in the accounting industry and video development. She currently works with the Kenyan county government.",
       src: {
         original:
           "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Hannah_vvrp3f.webp",
@@ -46,7 +46,7 @@ export default function TeamDetails() {
       name: "HANNAH N. NGETHE",
       title: "ACCOUNTANT",
       details:
-        "Hannah has a great deal of experience in the accounting industry and video development. She currently works with the Kenyan county government.",
+        "Hannah is a social worker - she has been involved in doing charity work, especially in the Nairobi slums.",
       src: {
         original:
           "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Gladys_lhp97x.webp",
@@ -60,24 +60,31 @@ export default function TeamDetails() {
           return (
             <div key={idx} className="bg-gray-100">
               <div className="px-10 py-12">
-                <div className="py-5 border-b-2">
+                <div className="inline-flex py-5 space-x-5 border-b-2">
                   <div className="relative w-24 h-24 ">
                     <Image
                       src={teamdetails.src?.original}
                       alt=""
                       layout="fill"
                       objectFit="contain"
-                      className=""
+                      className="rounded-full"
                     />
+                  </div>
+
+                  <div className="py-3 ">
+                    <div>
+                      <h1 className="font-semibold text-secondary">
+                        {" "}
+                        {teamdetails.name}
+                      </h1>
+                      <h3 className="text-sm font-bold text-primary">
+                        {" "}
+                        {teamdetails.title}
+                      </h3>
+                    </div>
                   </div>
                 </div>
 
-                <div className="flex py-3">
-                  <div>
-                    <h1> {teamdetails.name}</h1>
-                    <h3> {teamdetails.title}</h3>
-                  </div>
-                </div>
                 <div className="pt-2">
                   <p>{teamdetails.details}</p>
                 </div>
