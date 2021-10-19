@@ -39,7 +39,7 @@ export default function TeamDetails() {
         "Gladys has a great deal of experience in the accounting industry and video development. She currently works with the Kenyan county government.",
       src: {
         original:
-          "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Hannah_vvrp3f.webp",
+          "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Gladys_lhp97x.webp",
       },
     },
     {
@@ -49,7 +49,7 @@ export default function TeamDetails() {
         "Hannah is a social worker - she has been involved in doing charity work, especially in the Nairobi slums.",
       src: {
         original:
-          "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Gladys_lhp97x.webp",
+          "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Hannah_vvrp3f.webp",
       },
     },
   ];
