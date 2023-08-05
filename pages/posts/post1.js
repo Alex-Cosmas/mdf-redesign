@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import GridGallery from '~/components/GridGallery'
 
 export default function Post1() {

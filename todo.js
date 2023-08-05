@@ -29,3 +29,12 @@ Donation
 https://play.tailwindcss.com/XN2amahL5U?layout=horizontal
 
 */
+
+/*
+Phone Numbers:
+USA: +12534801190
+Safaricom: +254792708191
+3. Remove kids being supported and leave Havila Children's Home, street feeding, housings, and school fees programs
+4. Remove Gladys Njeri
+5. Donation online doesn't work...
+ */

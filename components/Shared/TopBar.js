@@ -8,7 +8,7 @@ function TopBar() {
               <p> Have any questsions? </p>
               <div className="flex space-x-2 ">
                 <p> Call: </p>
-                <p>+254 720 670 670</p>
+                <p>+254 792 708 191</p>
               </div>
 
               <div className="flex space-x-2 ">

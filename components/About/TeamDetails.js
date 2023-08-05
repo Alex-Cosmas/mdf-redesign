@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function TeamDetails() {
   const data = [
@@ -30,16 +30,6 @@ export default function TeamDetails() {
       src: {
         original:
           "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Jane_rhhe5w.webp",
-      },
-    },
-    {
-      name: "GLADYS W. NJERI",
-      title: "REGIONAL COORDINATOR",
-      details:
-        "Gladys has a great deal of experience in the accounting industry and video development. She currently works with the Kenyan county government.",
-      src: {
-        original:
-          "https://res.cloudinary.com/alexoc/image/upload/v1633856626/Projects/Miracle%20Dave%20Foundation/Profile/Gladys_lhp97x.webp",
       },
     },
     {

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import HelpDetails from '~/components/HowtoHelp/HelpDetails'
 export default function howtohelp() {
 
@@ -34,9 +34,9 @@ export default function howtohelp() {
         </section>
 
         <section>
-          <div>
-            <HelpDetails />
-          </div>
+          {/*<div>*/}
+          {/*  <HelpDetails />*/}
+          {/*</div>*/}
 
         </section>
       </div>

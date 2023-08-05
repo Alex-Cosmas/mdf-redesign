@@ -15,93 +15,91 @@ export default function donations() {
     minWidth: "250px",
     maxHeight: "none!important",
   };
-  return (
-    <>
-      <div className="container mx-auto ">
-        <div className="grid flex-col-reverse gap-8 py-10 pb-10 md:pt-32 md:grid-cols-2">
-          <div className="p-6 space-y-8 ">
-            <h2 className="mdf-h1">
-              Donate <span className="text-optional">to MDF Kenya </span>
-            </h2>
-            <div className="space-y-4">
-              <p>
-                Your tax-deductible donation saves lives and helps build a world
-                where every child has a chance for a better future.{" "}
-              </p>
-              <p>
-                For questions about supporting MDF Kenya, please{" "}
-                <Link href="/posts/post2">
-                  <a>
-                    <p>contact us</p>
-                  </a>
-                </Link>{" "}
-              </p>
-              <p>
-                Donations are tax deductible to the extent allowed by the law.
-                MDF Kenya does not provide any goods or services in exchange for
-                voluntary cash contributions.{" "}
-              </p>
+  return <>
+    <div className="container mx-auto ">
+      <div className="grid flex-col-reverse gap-8 py-10 pb-10 md:pt-32 md:grid-cols-2">
+        <div className="p-6 space-y-8 ">
+          <h2 className="mdf-h1">
+            Donate <span className="text-optional">to MDF Kenya </span>
+          </h2>
+          <div className="space-y-4">
+            <p>
+              Your tax-deductible donation saves lives and helps build a world
+              where every child has a chance for a better future.{" "}
+            </p>
+            <p>
+              For questions about supporting MDF Kenya, please{" "}
+              <Link href="/posts/post2">
 
-              <p>
-                To donate by check, please make checks payable to "MDF Kenya"{" "}
-              </p>
+                <p>contact us</p>
 
-              <div className="grid grid-cols-2 gap-10 ">
-                <div className="p-6 space-y-5 bg-gray-100">
-                  <p className="flex flex-col">
-                    Bank Name:{" "}
-                    <span className="font-bold text-primary">SIDIAN BANK</span>
-                  </p>
-                  <p className="flex flex-col">
-                    Account Name:{" "}
-                    <span className="font-bold text-primary">
-                      MIRACLE DAVE FOUNDATION
-                    </span>
-                  </p>
-                  <p className="flex flex-col">
-                    Branch:{" "}
-                    <span className="font-bold text-primary">MOI AVENUE</span>
-                  </p>
-                  <p className="flex flex-col">
-                    Swiftcode:{" "}
-                    <span className="font-bold text-primary">SIDNKENA</span>
-                  </p>
-                </div>
+              </Link>{" "}
+            </p>
+            <p>
+              Donations are tax deductible to the extent allowed by the law.
+              MDF Kenya does not provide any goods or services in exchange for
+              voluntary cash contributions.{" "}
+            </p>
 
-                <div className="grid p-6 bg-gray-100">
-                  <p className="flex flex-col">
-                    KSH Account No.
-                    <span className="font-bold text-primary">
-                      {" "}
-                      01033020017168
-                    </span>
-                  </p>
+            <p>
+              To donate by check, please make checks payable to "MDF Kenya"{" "}
+            </p>
 
-                  <p className="flex flex-col">
-                    USD Account No.
-                    <span className="font-bold text-primary">
-                      01033150035183
-                    </span>
-                  </p>
-                </div>
+            <div className="grid grid-cols-2 gap-10 ">
+              <div className="p-6 space-y-5 bg-gray-100">
+                <p className="flex flex-col">
+                  Bank Name:{" "}
+                  <span className="font-bold text-primary">SIDIAN BANK</span>
+                </p>
+                <p className="flex flex-col">
+                  Account Name:{" "}
+                  <span className="font-bold text-primary">
+                    MIRACLE DAVE FOUNDATION
+                  </span>
+                </p>
+                <p className="flex flex-col">
+                  Branch:{" "}
+                  <span className="font-bold text-primary">MOI AVENUE</span>
+                </p>
+                <p className="flex flex-col">
+                  Swiftcode:{" "}
+                  <span className="font-bold text-primary">SIDNKENA</span>
+                </p>
+              </div>
+
+              <div className="grid p-6 bg-gray-100">
+                <p className="flex flex-col">
+                  KSH Account No.
+                  <span className="font-bold text-primary">
+                    {" "}
+                    01033020017168
+                  </span>
+                </p>
+
+                <p className="flex flex-col">
+                  USD Account No.
+                  <span className="font-bold text-primary">
+                    01033150035183
+                  </span>
+                </p>
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center w-full">
-            <iframe
-              src="https://donorbox.org/embed/fund-a-child"
-              name="donorbox"
-              allowpaymentrequest="allowpaymentrequest"
-              seamless="seamless"
-              frameBorder="0"
-              scrolling="no"
-              height="900px"
-              width="100%"
-              style={styles}
-            />
-          </div>
+        </div>
+        <div className="flex items-center justify-center w-full">
+          <iframe
+            src="https://donorbox.org/embed/fund-a-child"
+            name="donorbox"
+            allowpaymentrequest="allowpaymentrequest"
+            seamless="seamless"
+            frameBorder="0"
+            scrolling="no"
+            height="900px"
+            width="100%"
+            style={styles}
+          />
         </div>
       </div>
-    </>
-  );
+    </div>
+  </>;
 }
