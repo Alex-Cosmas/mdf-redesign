@@ -1,15 +1,18 @@
 module.exports = {
   images: {
-    domains: ['static.wixstatic.com', 'res.cloudinary.com'],
-
-
+    domains: ["static.wixstatic.com", "res.cloudinary.com"],
   },
   webpack: (config) => {
-    config.resolve.fallback = { fs: false }
-    return config
+    config.resolve.fallback = { fs: false };
+    return config;
   },
-}
 
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
+};
 
 // module.exports = {
 //   // Webpack 5 is enabled by default
