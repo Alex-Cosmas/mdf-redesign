@@ -29,14 +29,7 @@ export default function donations() {
               Your tax-deductible donation saves lives and helps build a world
               where every child has a chance for a better future.{" "}
             </p>
-            <p>
-              For questions about supporting MDF Kenya, please{" "}
-              <Link href="/posts/post2">
-
-                <p>contact us</p>
-
-              </Link>{" "}
-            </p>
+           
             <p>
               Donations are tax deductible to the extent allowed by the law.
               MDF Kenya does not provide any goods or services in exchange for
@@ -44,7 +37,11 @@ export default function donations() {
             </p>
 
             <p>
-              To donate by check, please make checks payable to "MDF Kenya"{" "}
+              Please contact us to learn more on supporting MDF Kenya
+            </p>
+
+            <p>
+              You can donate by cheque, made payable to "MDF KENYA"
             </p>
 
             <div className="grid grid-cols-2 gap-10 ">
